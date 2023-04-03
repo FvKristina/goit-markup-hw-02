@@ -47,11 +47,15 @@ body {
   color: var(--color-navy-blue);
 }
 .header-nav-list {
+}
+
+.header-nav-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  text-decoration: none;
 }
 .link:hover,
 .link:focus {
@@ -64,9 +68,12 @@ body {
   color: var(--color-slate);
 }
 .address-list {
+  font-style: normal;
 }
-.address-item:
-.address-item: {
+.address-item {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 /* hero */
