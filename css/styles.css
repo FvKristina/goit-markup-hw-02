@@ -92,7 +92,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
@@ -105,6 +105,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-white);
   background-color: var(--color-iris);
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
@@ -113,8 +114,9 @@ body {
 /* section 1 */
 .principles {
 }
-
-.principles-list {
+.principles-maintitle {
+}
+.workin .principles-list {
 }
 .principle-item {
 }
@@ -137,7 +139,7 @@ body {
 .work-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -154,7 +156,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -163,16 +165,20 @@ body {
 .team-list {
 }
 .team-item {
+  background-color: var(--color-white);
 }
 .team-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
 .team-work {
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* footer */
